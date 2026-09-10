@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>El bingo de Tierra X</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <img src="img/banner.jpg" alt="TierraX" class="banner" />
+  </header>
+
+  <div id="storage-warning" role="alert" hidden>
+    No se pudo acceder al almacenamiento local del navegador. El cartón va a funcionar,
+    pero no se va a guardar si cerrás o recargás la página.
+  </div>
+
+  <main>
+    <div id="grid-wrapper">
+      <div id="bingo-grid" class="grid" role="group" aria-label="Cartón de bingo"></div>
+    </div>
+    <button id="reset-btn" type="button">🔄 Nuevo cartón</button>
+  </main>
+
+  <div id="confirm-overlay" class="overlay" hidden>
+    <div class="confirm-box" role="alertdialog" aria-modal="true" aria-labelledby="confirm-title">
+      <p id="confirm-title">¿Generar un cartón nuevo?</p>
+      <p class="confirm-detail">Se va a perder el progreso actual.</p>
+      <div class="confirm-actions">
+        <button id="confirm-cancel" type="button" class="btn-secondary">Cancelar</button>
+        <button id="confirm-accept" type="button" class="btn-danger">Sí, generar nuevo</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/options.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
