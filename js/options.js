@@ -20,5 +20,6 @@ const BINGO_OPTIONS = [
   "Está Mariana de invitada",
   "Está Lupe de invitada",
   "Nico menciona 'La muerte de Superman'",
-  "Alguien dice 'toca bancar'"
+  "Alguien dice 'toca bancar'",
+  "Alguien dijo 'con el diario del lunes'"
   ];
