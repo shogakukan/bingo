@@ -21,5 +21,6 @@ const BINGO_OPTIONS = [
   "Está Lupe de invitada",
   "Nico menciona 'La muerte de Superman'",
   "Alguien dice 'toca bancar'",
-  "Alguien dijo 'con el diario del lunes'"
+  "Alguien dijo 'con el diario del lunes'",
+  "Discusión falopa sobre la altura de los personajes"
   ];
